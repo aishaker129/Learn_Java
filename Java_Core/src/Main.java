@@ -1,4 +1,5 @@
 import Encapsulation.BankAccount;
+import Encapsulation.Student;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -32,7 +33,7 @@ void main(String[] args) {
 //
 //    System.out.println(accounts.size());
 //    System.out.println(accounts.get("ACC-101"));
-    m('A');
+//    m('A');
 
 //    String name = "jhon";
 //    System.out.println(upper(name)); // JHON
@@ -44,6 +45,31 @@ void main(String[] args) {
 //    Child ch =  upper(c);
 //    System.out.println(ch.name); // BANGLADESH
 //    System.out.println(c.name); // BANGLADESH
+//    System.out.println(sum(1,2,3));
+//    Scanner sc = new Scanner(System.in);
+//    int num =sc.nextInt();
+//    System.out.println(isPrime(num));
+
+    Student s = new Student("");
+    System.out.println(s.getName());
+    System.out.println(s.getAge());
+}
+
+        private boolean isPrime(int num) {
+            for(int i=2; i< num; i++){
+                if(num % i == 0){
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        public static int sum(int ...a){
+    int sum = 0;
+    for(int i:a){
+        sum += i;
+    }
+    return sum;
 }
 
 public static Child upper(Child c){
