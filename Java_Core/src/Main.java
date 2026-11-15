@@ -72,10 +72,10 @@ void main(String[] args) {
     return sum;
 }
 
-public static Child upper(Child c){
-     c.name = c.name.toUpperCase();
-     return  c;
-}
+//public static Child upper(Child c){
+//     c.name = c.name.toUpperCase();
+//     return  c;
+//}
 
 public static String upper(String a){
     return a.toUpperCase();
