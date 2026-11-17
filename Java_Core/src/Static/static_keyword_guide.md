@@ -1,4 +1,4 @@
-# Java `static` Keyword --- Advanced Guide
+# Java `static` Keyword --- Guide
 
 **Level:** Intermediate to Advanced \| **Language:** Java
 
