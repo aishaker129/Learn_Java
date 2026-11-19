@@ -53,6 +53,8 @@ void main(String[] args) {
     Student s = new Student("");
     System.out.println(s.getName());
     System.out.println(s.getAge());
+
+ isPrime(91);
 }
 
         private boolean isPrime(int num) {
@@ -101,3 +103,11 @@ static void m(double a){
 }
 
 // char-int-long-float-double/wrapper
+
+static void isPrime(int n){
+ int cnt = 0;
+ for(int i=1; i<= n/2; i++){
+  if(n%i==0) cnt++;
+ }
+return cnt==1? 'Prime':'Not Prime';
+}
